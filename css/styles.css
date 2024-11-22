@@ -1,0 +1,37 @@
+body {
+    background-color:darkcyan;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+.quote-box h1 {
+    color: crimson;
+    font-size: 50px;
+}
+.quote-box p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.quote-box .quote-text {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.quote-box .quote-author {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+.quote-box button {
+    font-size: 1.1rem;
+}
